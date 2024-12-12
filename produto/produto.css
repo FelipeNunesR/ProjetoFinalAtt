@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #B4A5C2;
+}
+
+.header{
+    background-color: #a058e4;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+header .logo{
+    font-family: 'Protest Revolution', Arial, Helvetica, sans-serif;
+    background-color: #a058e4;
+}
+.image-carrinho{
+    background-color: #a058e4;
+    width: 30px;
+    height: 30px;
+    padding-bottom: 5px;
+}
+.divUsu{
+    background-color: #a058e4;
+}
+img{
+    width: 20px;
+}
+.div-h1{
+    background-color: #a058e4;
+}
+.div-links{
+    width: 20vw;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Protest Revolution' ;
+    background-color: #a058e4;
+
+}
+
+.div-links a{
+    text-decoration: none;
+    color: black;
+    background-color: #a058e4;
+}
+
+.image-usuario{
+   background-color: #a058e4; 
+}
+
+section{
+    display:flex;
+    justify-content: center;
+}
+
+.trailer{
+    width: 100px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+.trailer-container{
+    width: 140vw;
+    height: 70vh; /*Ajustar altura conforme o layout do site*/
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.trailer-container{
+    width: 140vw;
+    height: 70vh;
+    display: flex;
+    animation: slideAnimation 18s infinite ease-in-out;
+    animation-play-state: running /*Estado inicial*/;
+}
+
+.trailer-image{
+    width: 70vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.button-container{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff00;
+}
+
+.trailer-button{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.trailer-button:hover{
+    background-color: #888;
+}
+
+/*Pausa a animação com o cursor clica nos botões*/
+.trailer-button:hover ~ .trailer-container{
+    animation-play-state: paused;
+}
+
+.trailer-container:hover{
+    animation-play-state: running 1s;
+}
+
+#slider1:target ~ .trailer-container{
+    animation: none;
+    transform: translateX(30vw);
+}
+#slider2:target ~ .trailer-container{
+    animation: none;
+    transform: translateX(-70vw);
+}
+
+#slider3:target ~ .trailer-container{
+    animation: none;
+    transform: translateX(-140vw);
+}
+#slider4:target ~ .trailer-container{
+    animation: none;
+    transform: translateX(-210vw);
+}
+
+/*Animação*/
+@keyframes slideAnimation{
+    0% {transform: translateX(0);}
+    25%{transform: translateX(-70vw);}
+    50%{transform: translateX(-140vw);}
+    75%{transform: translateX(-210vw)}
+    100%{transform: translateX(0);}
+}

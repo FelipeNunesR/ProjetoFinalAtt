@@ -1,0 +1,672 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body{
+    background-color: black;
+}
+header {
+    background-color: #a058e4;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+header .logo{
+    /* font-family: "Protest Revolution", sans-serif; */
+    font-family: "Protest Revolution";
+    display: flex;
+    font-size: 24px;
+    color: #fff;
+    background-color: #a058e4;
+}
+h1{
+    font-family: 'Protest Revolution';
+}
+.header{
+    display: flex;
+    gap: 1450px;
+    justify-content: space-around;
+    background-color: #a058e4;
+}
+
+.div-links {
+    background-color: #a058e4;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.div-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #a058e4;
+}
+
+.image-usuario, .image-carrinho {
+    width: 30px;
+    height: 30px;
+    background-color: #a058e4;
+    cursor: pointer;
+}
+
+.divUsu {
+    background-color: #a058e4;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main {
+    padding: 20px;
+}
+section {
+    margin-top: 50px;
+}
+
+.product {
+    /* display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    width: 100vw;
+    justify-content: space-around; */
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.testee{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.product-container {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(/htmls/img/sliders/slider_produto_horizon/horizon_cinza.png);
+    background-color: #a058e4;
+    
+}
+.product-container1 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/slider_produto_ragnarok/ragnarokpretoebranco.jpg);
+    background-color: #a058e4;
+    
+}
+.product-container2 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_darksouls1/darksoul1fundo.jpg);
+    background-color: #a058e4;
+}
+.product-container3 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_darksouls2/darksoul2fundo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container4 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_darksouls3/darksouls3logo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container5 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produtos_raibowsix/raibowfundo.png);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container6 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_stardew/stardewfundo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container7 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_sekiro/sekirologo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container8 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_cyberpunk/cyberlogo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container9 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_ragnarok/ragnarokpretoebranco.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container10 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_elden/eldenlogo.jpg);
+    background-size: cover;
+    background-color: #a058e4;
+}
+.product-container11 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_demon/demonlogo.png);
+    background-size: cover;
+    background-color: black;
+}
+.product-container12 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_legends/arceuslogo.jpg);
+    background-size: cover;
+    background-color: black;
+}
+.product-container13 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_scarlet/scarletlogo.png);
+    background-size: cover;
+    background-color: black;
+}
+.product-container14 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_firered/fireredlogo.jpg);
+    background-size: cover;
+    background-color: black;
+}
+.product-container15 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_pikachu/pikachulogo.jpg);
+    background-size: cover;
+    background-color: black;
+}
+.product-container16 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_sword/swordlogo.png);
+    background-size: cover;
+    background-color: black;
+}
+.product-container19 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_RK/kinglogo.jpg);
+    background-size: cover;
+    background-color: black;
+}
+.product-container18 {
+    /* display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 20px;
+    background-image: url(./img/sliders/slider_produto_hades/hadeslogo.jpg);
+    background-size: cover;
+    background-color: black;
+}
+.product .product-container {
+    width: auto;
+}
+
+.product-images {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#main-image {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.product-info {
+    background: linear-gradient(90deg, rgba(160,88,228,0.4) 0%, rgba(160,88,228,0.39539565826330536) 100%);
+    width: auto;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+.price{
+    background: linear-gradient(90deg,  rgba(160,88,228,0) 100%, rgba(160,88,228,0) 100%);
+}
+.name{
+    background: linear-gradient(90deg,  rgba(160,88,228,0) 100%, rgba(160,88,228,0) 100%);
+    color: white;
+    font-size: 30px;
+}
+.aval{
+    margin-top: 40px;
+    background: linear-gradient(90deg,  rgba(160,88,228,0) 100%, rgba(160,88,228,0) 100%);
+    color:#cacaca ;
+}
+.pontu{
+    background: linear-gradient(90deg,  rgba(160,88,228,0) 100%, rgba(160,88,228,0) 100%);
+    color:#a3c1f8;
+}
+.prec {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.actions {
+    display: flex;
+    padding-left: 100px;
+    flex-direction: row;
+    gap: 10px;
+    background: linear-gradient(90deg,  rgba(160,88,228,0) 100%, rgba(160,88,228,0) 100%);
+}
+
+.action-button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #f0a500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #d88b00;
+}
+
+footer {
+    background-color: #a058e4;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-top: 165px;
+}
+
+.foot{
+    width: 100%;
+    height: 200px;
+    background-color: #a058e4;
+}
+.redes h1{
+    background-color: #a058e4;
+    color: #cacaca;
+}
+
+.insta{
+    background-color: #a058e4;
+}
+
+.insta a img{
+    background-color: #a058e4;
+    width: 20px;
+    height: 20px;
+}
+.insta a{
+    background-color: #a058e4;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.insta .felipe{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #a058e4;
+}
+.insta .tag0ra{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #a058e4;
+}
+
+/* Carrossel de Imagens */
+.trailer {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}
+
+.trailer-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    animation: slideAnimation 18s infinite ease-in-out;
+}
+
+.botao-carrinho a {
+    background-color: transparent;
+}
+
+.trailer-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff00;
+}
+
+.trailer-button {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.trailer-button:hover {
+    background-color: #888;
+}
+
+.trailer-button:hover ~ .trailer-container {
+    animation-play-state: paused;
+}
+
+.trailer-container:hover {
+    animation-play-state: running 1.5s;
+}
+
+/* Animação de transição das imagens */
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#slider1:target ~ .trailer-container {
+    animation: none;
+    transform: translateX(0);
+}
+
+#slider2:target ~ .trailer-container {
+    animation: none;
+    transform: translateX(-100%);
+}
+
+#slider3:target ~ .trailer-container {
+    animation: none;
+    transform: translateX(-200%);
+}
+
+#slider4:target ~ .trailer-container {
+    animation: none;
+    transform: translateX(-300%);
+}

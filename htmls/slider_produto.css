@@ -1,0 +1,52 @@
+
+.slide-container{
+    width: 570px;
+    height: 350px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;   
+}
+.image-container{
+    width: auto;
+    height: 350px;
+    display: flex;
+    animation: slideAnimation 9s infinite ease-in-out;
+    animation-play-state: running;
+}
+.slider-image{
+    width: 570px;
+    height: 350px;
+    object-fit: cover;
+}
+.button-container{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.slider-button{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#slider-image1:target ~ .image-container{
+    animation: none;
+    transform: translateX(0);
+}
+#slider-image1:target ~ .image-container{
+    animation: none;
+    transform: translateX(-100vw);
+}
+@keyframes slideAnimation{
+    0% {transform: translateX(0);}
+    33.33% {transform: translateX(-30vw);}
+    66.66%{ transform:translateX(-60vw);}
+    100%{ transform:translateX(0);}
+}

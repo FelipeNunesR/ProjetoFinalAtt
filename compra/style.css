@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #B4A5C2;
+}
+.title-franquias{
+    background-color: #a058e4;
+    width: 100vw;
+    height: 20px;
+}
+
+.header{
+    background-color: #a058e4;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: top;
+}
+
+header .logo{
+    font-family: 'Protest Revolution', Arial, Helvetica, sans-serif;
+    background-color: #a058e4;
+    
+}
+.image-carrinho{
+    background-color: #a058e4;
+    width: 30px;
+    height: 30px;
+    
+}
+.divUsu{
+    background-color: #a058e4;
+}
+img{
+    width: 20px;
+}
+.div-h1{
+    background-color: #a058e4;
+}
+.div-links{
+    width: 20vw;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Protest Revolution' ;
+    background-color: #a058e4;
+
+}
+
+.div-links a{
+    text-decoration: none;
+    color: black;
+    background-color: #a058e4;
+}
+
+.image-usuario{
+   background-color: #a058e4; 
+}

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display:flex;
+    justify-content: center;
+}
+
+.slide-container{
+    width: 100vw;
+    height: 70vh; /*Ajustar altura conforme o layout do site*/
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    
+
+}
+
+.image-container{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    animation: slideAnimation 14s infinite ease-in-out;
+    animation-play-state: running /*Estado inicial*/;
+}
+
+.slider-image{
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.button-container{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff00;
+}
+
+.slider-button{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.slider-button:hover{
+    background-color: #888;
+}
+
+/*Pausa a animação com o cursor clica nos botões*/
+.slider-button:hover ~ .image-container{
+    animation-play-state: paused;
+}
+
+.image-container:hover{
+    animation-play-state: running 1s;
+}
+
+#slider-image1:target ~ .image-container{
+    animation: backwards;
+    transform: translateX(-100vw);
+}
+#slider-image2:target ~ .image-container{
+    animation: backwards;
+    transform: translateX(-200vw);
+}
+
+#slider-image3:target ~ .image-container{
+    animation: backwards;
+    transform: translateX(-300vw);
+}
+#slider-image4:target ~ .image-container{
+    animation: backwards;
+    transform: translateX(-400vw);
+}
+
+/*Animação*/
+@keyframes slideAnimation{
+    0% {transform: translateX(0);}
+    25%{transform: translateX(-80);}
+    50%{transform: translateX(-160vw);}
+    75%{transform: translateX(-240vw)}
+    100%{transform: translateX(0);}
+}

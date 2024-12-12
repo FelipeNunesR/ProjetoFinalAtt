@@ -1,0 +1,119 @@
+
+
+.franquia-container {
+    width: 80vw;
+    height: 80vh;
+    /*Ajustar altura conforme o layout do site*/
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.image-franquia {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    animation: slideAnimation 10s infinite ease-in-out;
+    animation-play-state: running
+        /*Estado inicial*/
+    ;
+}
+
+.franquia-image {
+    width: 20vw;
+    height: 80vh;
+    object-fit: cover;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.franquia-image:hover {
+    width: 30vw;
+    height: 90vh;
+    object-fit: cover;
+    margin: 10px 10px 10px 10px;
+    transition: ease-in 0.6s;
+}
+
+.button-franquia {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff00;
+}
+
+.franquia-button {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.franquia-button:hover {
+    background-color: #888;
+}
+
+/*Pausa a animação com o cursor clica nos botões*/
+.franquia-button:click~.franquia-container {
+    animation-play-state: paused;
+}
+
+.image-franquia:hover {
+    animation-play-state: running 1s;
+}
+
+#franquia-image1:target~.image-franquia {
+    animation: none;
+    transform: translateX(30vw);
+}
+
+#franquia-image2:target~.image-franquia {
+    animation: none;
+    transform: translateX(-70vw);
+}
+
+#franquia-image3:target~.image-franquia {
+    animation: none;
+    transform: translateX(-140vw);
+}
+
+#slider-image4:target~.image-franquia {
+    animation: none;
+    transform: translateX(-210vw);
+}
+
+/*Animação*/
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-20vw);
+    }
+
+    40% {
+        transform: translateX(-40vw);
+    }
+
+    60% {
+        transform: translateX(-60vw)
+    }
+
+    80% {
+        transform: translateX(-80vw)
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

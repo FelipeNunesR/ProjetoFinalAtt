@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+.franquia_descricao{
+    display: flex;
+    background-color: #B4A5C2;
+    align-items: center;
+    justify-content: space-around;
+}
+.name_descr{
+    background-color: #B4A5C2;
+    align-items: center;
+    margin-left: 100px;
+}
+.name_descr img{
+    margin-left: 100px;
+}
+.gig_name h1{
+    color: white;
+}
+body{
+    background-color: black;
+}
+.containerr{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around;
+}
+.mk11{
+    background-color: #a058e4;
+    width: 270px;
+}
+.lolja1{
+    background-color: #a058e4;
+}
+.lolja1 h4{
+    padding:0;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #a3c1f8;
+    font-size: 20px;
+    background-color: #a058e4;
+}
+.lolja1 h3{
+    padding:0;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: #a058e4;
+}
+.lolja1 button{
+    text-decoration: none;
+    color: white;
+    background-color: #B4A5C2;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height:30px;
+    background-color: #f0a500;
+}
+.lolja1 button a{
+    text-decoration: none;
+    color: white;
+    background-color: #f0a500;
+}
+.mkx{
+    background-color: #a058e4;
+    width: 250px;
+}
+.mk1{
+    background-color: #a058e4;
+    width: 270px;
+}
+.container2{
+    display:flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around;
+}
+.soulslii{
+    font-family: 'New Rocker';
+    font-size: 100px;
+    color: #e4ddeb
+}
